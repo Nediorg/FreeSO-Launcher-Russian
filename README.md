@@ -1,38 +1,39 @@
-# FreeSO Launcher
+# FreeSO Launcher (Русский)
+# Переведено через DeepL (https://www.deepl.com/)
 
 ![image](https://i.imgur.com/RbugnjU.png)
 
-# Installing FreeSO
-To install FreeSO you will also need to install OpenAL, .NET Framework >= 4.0 and the original The Sims Online client. These dependencies are all included in the launcher.
+# Установка FreeSO
+Для установки FreeSO вам также потребуется установить OpenAL, .NET Framework >= 4.0 и оригинальный онлайн-клиент The Sims Online. Все эти зависимости включены в программу запуска.
 
-By clicking the **COMPLETE INSTALLATION** button in the **INSTALLER** tab you can install FreeSO and all of its dependencies all together.
+Нажав кнопку **COMPLETTE INSTALLATION** в о вкладке **INSTALLER**, вы можете установить FreeSO и все его зависимости вместе.
 
-If you already have some of the dependencies installed, you can install the ones you don't have by clicking them separately in the installer tab. 
+Если у вас уже установлены некоторые из зависимостей, вы можете установить те, которых у вас нет, щелкнув их отдельно на вкладке программы установки. 
 
-# Using a previous FreeSO installation
-If you have already installed FreeSO before, you can reuse your installation by installing it in the same directory. If the game files are already present, the launcher will not perform a reinstallation. It will choose your previous installation as the primary one.
+# Использовать предыдущую установку FreeSO
+Если вы уже устанавливали FreeSO ранее, вы можете использовать вашу установку повторно, установив ее в том же каталоге. Если игровые файлы уже присутствуют, лаунчер не выполнит переустановку. В качестве основной она выберет вашу предыдущую установку.
 
-For example, if you already have FreeSO installed in C:/Program Files/FreeSO, then install FreeSO from the launcher choosing the **Program Files** directory. 
+Например, если у вас уже установлена FreeSO в C:/Program Files/FreeSO, то установите FreeSO из лаунчера, выбрав каталог **Program Files**. 
 
-The folder needs to be named **FreeSO** in order for the launcher to pick up previous installations.
+Папка должна быть названа **FreeSO** для того, чтобы лаунчер мог забрать предыдущие установки.
 
-# Extra features
-* You can right click the Play button to run FreeSO along with the Volcanic IDE.
-* You can change your game language in settings.
-* You can change your game mode (3D or 2D).
-* You can change the graphics mode (DirectX, OpenGL or Software).
-* You can turn on Text-To-Speech for the game.
+# Дополнительные функции
+* Вы можете щелкнуть правой кнопкой мыши на кнопку "Play", чтобы запустить FreeSO вместе с Volcanic IDE.
+* Вы можете изменить язык игры в настройках.
+* Вы можете изменить режим игры (3D или 2D).
+* Вы можете изменить графический режим (DirectX, OpenGL или программное обеспечение).
+* Вы можете включить TTS для игры.
 
-# Problems
-* If your The Sims Online download fails continuosly at different .cabs, it is most likely due to a bad internet connection. You can use the original The Sims Online installer which seems to retry multiple times after failing, which means it may take more time to install, but it might work for you. [Click here to download the original The Sims Online installer](http://largedownloads.ea.com/pub/misc/tso/Setup%20The%20Sims%20Online.exe).
+# Проблемы
+* Если ваша загрузка The Sims Online не проходит непрерывно в разных .cabs, это, скорее всего, связано с плохим интернет-соединением. Вы можете использовать оригинальный установщик The Sims Online, который, кажется, повторяет попытку несколько раз после сбоя, что означает, что установка может занять больше времени, но это может работать на вас. [Нажмите здесь, чтобы загрузить оригинальную программу установки The Sims Online] (http://largedownloads.ea.com/pub/misc/tso/Setup%20The%20Sims%20Online.exe).
 
-# How to build
-1. Install Node.js
-2. Install Electron 1.7.9 using NPM (`npm i -g electron@1.7.9`)
-3. Run `npm run build` in the folder where package.json is to build Electron binaries
-4. Run `npm run buildasar` in the folder where package.json is to build the launcher 
-5. Copy the app.asar file and the app.asar.unpacked folder to the resources folder of the Electron binaries
-6. Run electron.exe
+# Как скомпилировать
+1. Установите Node.js
+2. Установите Electron 1.7.9, используя NPM (`npm i -g electron@1.7.9`).
+3. Запустите `npm run build` в папке, где package.json собирает двоичные файлы Electron.
+4. Запустите `npm запустить buildasar` в папке, где package.json собирает лаунчер. 
+5. Скопируйте файл app.asar и распакованную папку app.asar в папку ресурсов двоичных файлов программы Electron.
+6. Запустиnt electron.exe
 
-**Make sure to run it as an administrator!**
+**Обязательно запустите его от имени администратора!**
 
