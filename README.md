@@ -31,7 +31,7 @@
 1. Установите Node.js
 2. Установите Electron 1.7.9, используя NPM (`npm i -g electron@1.7.9`).
 3. Запустите `npm run build` в папке, где package.json собирает двоичные файлы Electron.
-4. Запустите `npm запустить buildasar` в папке, где package.json собирает лаунчер. 
+4. Запустите `npm run buildasar` в папке, где package.json собирает лаунчер. 
 5. Скопируйте файл app.asar и распакованную папку app.asar в папку ресурсов двоичных файлов программы Electron.
 6. Запустиnt electron.exe
 
