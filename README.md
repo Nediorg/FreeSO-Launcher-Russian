@@ -1,5 +1,5 @@
 # FreeSO Launcher (Русский)
-# Переведено через DeepL (https://www.deepl.com/)
+Переведено через DeepL (https://www.deepl.com/)
 
 ![image](https://i.imgur.com/RbugnjU.png)
 
